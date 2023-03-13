@@ -1,0 +1,144 @@
+body {
+  background-color: #efefef;
+}
+.comment-box {
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.comment-box h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.comment-box input {
+  width: 100%;
+  height: 50px;
+  padding: 0 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #86b0b6;
+  background-color: #efefef;
+}
+.comment-box input:focus {
+  box-shadow: 0 0 0 0.2rem rgba(134, 176, 182, 0.3);
+}
+.comment-box textarea {
+  width: 100%;
+  height: 150px;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #86b0b6;
+  background-color: #efefef;
+  resize: none;
+}
+.comment-box textarea:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(134, 176, 182, 0.3);
+}
+.comment-box button {
+  padding: 10px 30px;
+  background-color: #86b0b6;
+  font-size: 18px;
+  border-radius: 5px;
+  color: #fff;
+  transition: background 0.2s ease-in-out;
+}
+.comment-box button:hover {
+  background-color: #66b1bc;
+}
+
+.error .input-field {
+  border-color: red;
+}
+
+.error-label {
+  display: block;
+  margin-bottom: 10px;
+  color: red;
+}
+
+/* *Public================================================ */
+
+.public-com {
+  max-width: 100%;
+  min-height: 100px;
+  margin-top: 45px;
+  position: relative;
+}
+
+.public-div {
+  max-width: 500px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 20px 10px 0;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  position: relative;
+}
+.public-head {
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+  padding: 15px 0 15px 20px;
+}
+.public-main {
+  font-size: 14px;
+  padding-left: 52px;
+}
+.div__name {
+  font-size: 12px;
+}
+.avatar {
+  vertical-align: middle;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.div__abs{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+.div__abs img{
+  width: 15px;
+}
+
+.heart__div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 40px;
+  top: 5px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+}
+.heart__div svg{
+stroke: black;
+fill: white;
+  
+}
+.heart__div.active{
+  background-color: #FEF0F0FF;
+  
+}
+.heart__div.active>svg{
+  fill: #FF8F8FFF;
+  stroke: #FF8F8FFF;
+}
+
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
+  <title>Comments</title>
+</head>
+
+<body>
+  
+
+  <div class="comment-box">
+    <h2>Comment</h2>
+    <form action="#" class="form" id="add-form">
+      <div class="input-box">
+        <input data-min-length="3" data-required="true" id="input" class="input-field" type="text" name="firstName" placeholder="Full Name..." autocomplete="off">
+      </div>
+      <div class="input-box"> 
+        <textarea data-min-length="1" id="textarea" class="input-field" name="comment" placeholder="Type Your Comment..."></textarea>
+      </div>
+      <div>
+        <input type="date" id="date-inp">
+      </div>
+      <button id="button" type="submit">Submit Comment</button>
+    </form>
+  </div>
+  <div id="comment-field" class="public-com">
+  
+  </div>
+
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
+
